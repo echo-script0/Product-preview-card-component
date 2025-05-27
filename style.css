@@ -7,13 +7,11 @@ body {background-color:hsl(30, 38%, 92%);
       padding: 0; /* Remove default padding */
       overflow: hidden;}
 
-@media (max-width: 600px){
-
 .container { background-color:hsl(0, 0%, 100%) ; /* Box background color */
              width: 610px; /* The size you want the box to be */
              border-radius: 10px; /* Optional; for rounded edges */
              display: flex;
-             flex-direction: column;
+             flex-direction: row;
              padding: 0%;
              height: 460px; 
              overflow: hidden;}
@@ -94,7 +92,7 @@ body {background-color:hsl(30, 38%, 92%);
                         object-fit: contain;       /* keep aspect ratio */
                         flex-shrink: 0; }
 
-  .right-container .checkout-button:hover {background-color: hsl(158, 42%, 18%);} }
+.right-container .checkout-button:hover {background-color: hsl(158, 42%, 18%);}
            
 
     
