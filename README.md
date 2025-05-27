@@ -19,7 +19,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 
 ### Live site
-
+https://echo-script0.github.io/Product-preview-card-component/
 
 ### Built with
 
@@ -30,6 +30,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Responsive Design Principles
 
 ## Author
-Aisha Adeyemo
+- Aisha Adeyemo
 - Frontend Mentor - (https://www.frontendmentor.io/profile/echo-script0)
 
