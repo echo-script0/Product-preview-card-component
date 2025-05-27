@@ -1,0 +1,108 @@
+body {background-color:hsl(30, 38%, 92%);
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      height: 100vh; /* Full viewport height */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      overflow: hidden;}
+
+.container { background-color:hsl(0, 0%, 100%) ; /* Box background color */
+             width: 610px; /* The size you want the box to be */
+             border-radius: 10px; /* Optional; for rounded edges */
+             display: flex;
+             flex-direction: row;
+             padding: 0%;
+             height: 460px; 
+             overflow: hidden;}
+
+.container .left-container {background-image: url('image-product-desktop.jpg');
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            background-position: center;
+                            width: 50%;
+                            height: 100%;}
+
+.right-container {background-color: hsl(0, 0%, 100%);}
+
+.right-container .perfume {font-family:'Montserrat', sans-serif;
+                           font-size: 14px;
+                           font-weight: 500;
+                           color: hsl(228, 12%, 48%);
+                           padding: 40px 0 0px 30px;
+                           letter-spacing: 3px;}
+
+.right-container .gabrielle-title {
+  font-family: 'Fraunces', serif;
+  font-size: 33px;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  padding-top: 20px;
+  padding-left: 30px;
+  line-height: 1; /* Adjust this value to control line spacing */}
+
+.right-container .floral-title {font-family:'Montserrat', sans-serif;
+                                font-size: 14px;
+                                color: hsl(228, 12%, 48%);
+                                padding-top: 20px;
+                                padding-left: 30px;
+                                font-weight: 500;
+                                letter-spacing: 0.6px;
+                                line-height: 1.6;}
+
+.right-container .number-title {padding-left: 30px;
+                                padding-top: 30px;
+                                display: row;
+                                align-items: center;
+                                word-spacing: 9px;}
+                               
+
+.number-title .current-price {font-family:'Fraunces', serif;
+                              font-size: 35px;
+                              color: hsl(158, 36%, 37%);
+                              font-weight: 500;}
+
+.number-title .original-price {font-family:'Montserrat', sans-serif;
+                               font-size: 14px;
+                               color: hsl(228, 12%, 48%);
+                               font-weight: 500;
+                               text-decoration: line-through;}
+
+.right-container .checkout-button {background-color: hsl(158, 36%, 37%);
+                                   color: hsl(0, 0%, 100%);
+                                   font-family: 'Montserrat', sans-serif;
+                                   font-weight: 700;
+                                   font-size: 14px;
+                                   margin-top: 20px;
+                                   margin-left: 30px;
+                                   align-items: row;
+                                   text-align: center;
+                                   width: 90%;
+                                   height: 35px;
+                                   border-radius: 10px;
+                                   padding-top: 13px;
+                                   cursor: pointer;
+                                   justify-content: center;
+                                   gap: 10px;
+                                   display: flex;
+                                   transition: background-color 0.3s ease;}
+
+.checkout-button img {  width: 20px;               /* fixed icon width */
+                        height: 20px;              /* fixed icon height */
+                        object-fit: contain;       /* keep aspect ratio */
+                        flex-shrink: 0; }
+
+.right-container .checkout-button:hover {background-color: hsl(158, 42%, 18%);}
+           
+
+    
+                      
+
+                             
+
+
+
+
+
+
+            
