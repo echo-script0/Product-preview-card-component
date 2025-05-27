@@ -13,7 +13,7 @@ body {background-color:hsl(30, 38%, 92%);
              width: 610px; /* The size you want the box to be */
              border-radius: 10px; /* Optional; for rounded edges */
              display: flex;
-             flex-direction: row;
+             flex-direction: column;
              padding: 0%;
              height: 460px; 
              overflow: hidden;}
