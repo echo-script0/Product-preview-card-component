@@ -4,8 +4,7 @@ body {background-color:hsl(30, 38%, 92%);
       align-items: center; /* Center vertically */
       height: 100vh; /* Full viewport height */
       margin: 0; /* Remove default margin */
-      padding: 0; /* Remove default padding */
-      overflow: hidden;}
+      padding: 0; /* Remove default padding */}
 
 .container { background-color:hsl(0, 0%, 100%) ; /* Box background color */
              width: 610px; /* The size you want the box to be */
@@ -39,7 +38,8 @@ body {background-color:hsl(30, 38%, 92%);
   color: hsl(212, 21%, 14%);
   padding-top: 20px;
   padding-left: 30px;
-  line-height: 1; /* Adjust this value to control line spacing */}
+  line-height: 1; 
+  /* Adjust this value to control line spacing */}
 
 .right-container .floral-title {font-family:'Montserrat', sans-serif;
                                 font-size: 14px;
@@ -93,6 +93,69 @@ body {background-color:hsl(30, 38%, 92%);
                         flex-shrink: 0; }
 
 .right-container .checkout-button:hover {background-color: hsl(158, 42%, 18%);}
+
+@media (max-width: 600px) {
+  body {
+    height: auto;
+    padding: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .container .left-container {
+    background-image: url('image-product-desktop.jpg');
+    width: 100%;
+    height: 340px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .right-container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .right-container .perfume {
+    padding: 20px 0 0 0;
+    text-align: left;
+  }
+
+  .right-container .gabrielle-title {
+    font-size: 35px;
+    padding-left: 0;
+  }
+
+  .right-container .floral-title {
+    font-size: 13.5px;
+    padding-left: 0;
+    padding-top: 16px;
+  }
+
+  .right-container .number-title {
+    padding-left: 0;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .right-container .checkout-button {
+    margin: 20px ;
+    width: 80%;
+    padding: 14px 0;
+    align-items: center;}
+}
+
+
+          
            
 
     
